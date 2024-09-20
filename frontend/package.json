@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "chat-app": "file:..",
+    "chat-web-app": "file:..",
     "react": "^18.2.0",
     "react-contexify": "^6.0.0",
     "react-dom": "^18.2.0",
