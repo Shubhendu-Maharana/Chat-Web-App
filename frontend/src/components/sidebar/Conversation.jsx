@@ -40,8 +40,6 @@ const Conversation = ({ conversation }) => {
           </div>
         </div>
       </div>
-
-      {/* {!lastIdx && <div className="divider my-0 py-0 h-1" />} */}
     </>
   );
 };

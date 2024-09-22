@@ -4,10 +4,7 @@ import MessageContainer from "../../components/messages/MessageContainer";
 
 const Home = () => {
   return (
-    <div
-      className="py-4 flex h-full w-full"
-      style={{ backgroundColor: "#f2f6ff" }}
-    >
+    <div className="py-4 flex h-full w-full bg-[#f2f6ff]">
       <Sidebar />
       <MessageContainer />
     </div>

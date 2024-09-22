@@ -14,10 +14,7 @@ const Login = () => {
   };
 
   return (
-    <div
-      className="flex flex-col items-center justify-center min-w-96 mx-auto rounded-lg overflow-hidden shadow-[0px_0px_19px_3px_#00000024]"
-      style={{ backgroundColor: "#f2f6ff" }}
-    >
+    <div className="flex flex-col items-center justify-center min-w-96 mx-auto rounded-lg overflow-hidden shadow-[0px_0px_19px_3px_#00000024] bg-[#f2f6ff]">
       <div className="w-full p-6 rounded-lg shadow-xl bg-clip-padding">
         <h1 className="text-3xl font-semibold text-center text-red-500">
           Login

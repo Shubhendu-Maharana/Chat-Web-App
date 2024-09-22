@@ -10,8 +10,6 @@ import Header from "../sidebar/Header";
 import { IoClose } from "react-icons/io5";
 import { TfiMenu } from "react-icons/tfi";
 import { useSocketContext } from "../../context/SocketContext";
-// import { TiMessages } from "react-icons/ti";
-// import { useAuthContext } from "../../context/AuthContext";
 
 const MessageContainer = () => {
   const { selectedConversation, setSelectedConversation } = useConversation();
@@ -44,7 +42,17 @@ const MessageContainer = () => {
                   </div>
                   <span className="text-black font-bold">
                     {selectedConversation.fullName} <br />
-                    <span className={`text-sm ${onlineUsers.includes(selectedConversation._id) ? "text-blue-500" : "text-gray-500"}`}>{onlineUsers.includes(selectedConversation._id) ? "Online" : "Offline" }</span>
+                    <span
+                      className={`text-sm ${
+                        onlineUsers.includes(selectedConversation._id)
+                          ? "text-blue-500"
+                          : "text-gray-500"
+                      }`}
+                    >
+                      {onlineUsers.includes(selectedConversation._id)
+                        ? "Online"
+                        : "Offline"}
+                    </span>
                   </span>
                 </div>
               </div>
